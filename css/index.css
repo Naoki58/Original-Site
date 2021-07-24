@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.home-cover {
+  background-image: url(../img/home-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-item {
+  display: inline-block;
+  margin-top: 140px;
+  margin-left: 830px;
+  color: #6b3f31;
+}
+
+.home-title {
+  font-size: 100px;
+}
+
+.age {
+  font-size: 30px;
+}
+
+.home-suv {
+  font-size: 23px;
+  margin-top: 12px;
+  color: #993300;
+}

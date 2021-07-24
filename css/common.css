@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* 共通
+====================================================*/
+body {
+  color: #7b5544;
+  font-family: 'Roboto Mono', monospace;
+}
+
+section {
+  height: 100vh;
+}
+
+.section-title {
+  font-size: 70px;
+}
+
+/* HEADER
+====================================================*/
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.header-nav {
+  display: flex;
+  font-size: 30px;
+  margin-top: 24px;
+}
+
+.header-nav li {
+  margin-left: 50px;
+}
+
+
+/* FOOTER
+====================================================*/
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+}
+
+footer p {
+  color: #fff;
+}

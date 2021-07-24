@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* FROM
+====================================================*/
+.from-cover {
+  background-image: url(../img/from.bimg.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.from {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.from-box {
+  display: inline-block;
+  margin: 180px 30px 0 40px;
+  color: #cc6600;
+}
+
+.section-info {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.from img {
+  width: 50%;
+  border-radius: 50%;
+  margin: 60px 0;
+}
+
+/* HOBBY
+====================================================*/
+.hobby {
+  background-image: url(../img/hobby.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.hobby-box {
+  display: inline-block;
+  margin-top: 180px;
+  margin-left: 900px;
+  color: #736d71;
+}
+
+.hobby-item {
+  font-size: 30px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* CAREER
+====================================================*/
+.career {
+  background-image: url(../img/careea.bgi.png);
+  background-size: cover;
+  color: #f3a68c;
+}
+
+.career h2 {
+  text-align: center;
+  padding-top: 180px;
+  margin-bottom: 30px;
+}
+
+.career-list {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 500px;
+}
+
+.career-list li {
+  line-height: 2;
+}
