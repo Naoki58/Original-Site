@@ -77,3 +77,79 @@
 .career-list li {
   line-height: 2;
 }
+
+
+/* タブレット版
+===========================================*/
+@media screen and (max-width: 1024px) {
+  /* FROM */
+  .from {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .section-info {
+    font-size: 50px;
+  }
+
+  .from img {
+    height: 50%;
+    border-radius: 50%;
+  }
+
+  /* HOBBY */
+  .hobby-box {
+    margin: 500px 30%;
+  }
+
+  .hobby-box h2 {
+    font-size: 150px;
+  }
+
+  .hobby-item {
+    font-size: 40px;
+  }
+
+  /* CAREER */
+  .career-list {
+    font-size: 40px;
+    margin: 0 10%;
+  }
+}
+
+/* スマホ版
+===========================================*/
+@media screen and (max-width: 480px) {
+  /* FROM */
+  .section-info {
+    font-size: 30px;
+  }
+
+  .from img {
+    height: 30%;
+    border-radius: 40%;
+  }
+
+  /* HOBBY */
+  .hobby-box {
+    margin: 300px 0 0 30px;
+  }
+
+  .hobby-box h2 {
+    font-size: 70px;
+  }
+
+  .hobby-item {
+    font-size: 20px;
+  }
+
+  /* CAREER */
+  .career .career-title {
+    font-size: 30px;
+  }
+
+  .career-list {
+    font-size: 17px;
+  }
+}

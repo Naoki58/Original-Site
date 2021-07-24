@@ -1,9 +1,10 @@
 @charset "UTF-8";
 /* 共通
-====================================================*/
+==========================================*/
 body {
   color: #7b5544;
   font-family: 'Roboto Mono', monospace;
+  width: 100%;
 }
 
 section {
@@ -50,4 +51,55 @@ footer {
 
 footer p {
   color: #fff;
+}
+
+
+
+/* タブレット版
+===========================================*/
+@media screen and (max-width: 1024px) {
+  /* HEADER */
+  .page-header {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .header-nav {
+    padding-bottom: 10px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 40px 0;
+  }
+
+  footer p {
+    font-size: 30px;
+  }
+  
+}
+
+
+/* スマホ版
+===========================================*/
+@media screen and (max-width: 480px) {
+  /*HEADER*/
+  .header-nav {
+    text-align: center;
+    font-size: 15px;
+    margin-right: 25px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 20px 0;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+  
+
 }

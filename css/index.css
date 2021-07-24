@@ -29,3 +29,35 @@
   margin-top: 12px;
   color: #993300;
 }
+
+
+/* タブレット版
+===========================================*/
+@media screen and (max-width: 1024px) {
+  .home-item {
+    display: inline-block;
+    margin-top: 280px;
+    margin-left: 60%;
+    color: #6b3f31;
+  }
+
+}
+
+/* スマホ版
+===========================================*/
+@media screen and (max-width: 480px) {
+  .home-item {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 10%;
+    color: #6b3f31;
+  }
+
+  .home-title {
+    font-size: 50px;
+  }
+
+  .age {
+    font-size: 20px;
+  }
+}

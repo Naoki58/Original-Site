@@ -57,3 +57,16 @@ input[type="submit"] {
 input:hover {
   opacity: 0.5;
 }
+
+
+/* スマホ版
+===========================================*/
+@media screen and (max-width: 480px) {
+  form {
+    margin-left: 10px;
+  }
+
+  textarea {
+    width: 95%;
+  }
+}
