@@ -21,6 +21,19 @@
   content: "・";
 }
 
+/* Surface Duo
+===========================================*/
+@media screen and (max-width: 768px) {
+  .skill h2 {
+    font-size: 70px;
+    margin: 100px 10px;
+  }
+
+  .skill-list {
+    font-size: 30px;
+    margin: 90px 10px;
+  }
+}
 
 /* スマホ版
 ===========================================*/

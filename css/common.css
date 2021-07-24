@@ -81,6 +81,25 @@ footer p {
   
 }
 
+/* Surface Duo
+===========================================*/
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  .header-logo {
+    font-size: 40px;
+  }
+  
+  /* FOOTER */
+  footer {
+    padding: 20px 0;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
+  
+}
+
 
 /* スマホ版
 ===========================================*/

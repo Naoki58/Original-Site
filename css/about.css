@@ -118,6 +118,33 @@
   }
 }
 
+/* Surface Duo
+===========================================*/
+@media screen and (max-width: 768px) {
+  /* HOBBY */
+  .hobby-box {
+    margin: 300px 0 0 30px;
+  }
+
+  .hobby-box h2 {
+    font-size: 70px;
+  }
+
+  .hobby-item {
+    font-size: 20px;
+  }
+  
+  /* CAREER */
+  .career .career-title {
+    font-size: 30px;
+  }
+
+  .career-list {
+    font-size: 17px;
+  }
+  
+}
+
 /* スマホ版
 ===========================================*/
 @media screen and (max-width: 480px) {
